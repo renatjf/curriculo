@@ -1,0 +1,47 @@
+.bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+%blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+}
+
+.blob1 {
+  @extend %blob;
+  width: 700px; height: 700px;
+  background: radial-gradient(circle, rgba(155,0,26,.05) 0%, transparent 70%);
+  top: -150px; left: -200px;
+}
+.blob2 {
+  @extend %blob;
+  width: 500px; height: 500px;
+  background: radial-gradient(circle, rgba(201,168,76,.04) 0%, transparent 70%);
+  top: 25%; right: -120px;
+}
+.blob3 {
+  @extend %blob;
+  width: 400px; height: 400px;
+  background: radial-gradient(circle, rgba(155,0,26,.04) 0%, transparent 70%);
+  top: 60%; left: 15%;
+}
+.blob4 {
+  @extend %blob;
+  width: 600px; height: 600px;
+  background: radial-gradient(circle, rgba(201,168,76,.03) 0%, transparent 70%);
+  top: 85%; right: 5%;
+}
+.grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(201,168,76,.022) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(201,168,76,.022) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 85% 85% at 50% 40%, black 20%, transparent 80%);
+}
