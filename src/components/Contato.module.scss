@@ -3,18 +3,29 @@
   position: relative;
   z-index: 1;
   &::before {
-    content: '';
+    content: "";
     position: absolute;
-    top: 0; left: 0; right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, var(--border-strong), transparent);
+    background: linear-gradient(
+      90deg,
+      transparent,
+      var(--border-strong),
+      transparent
+    );
   }
 }
 
 .bg {
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(155,0,26,.04) 0%, transparent 70%);
+  background: radial-gradient(
+    ellipse 70% 60% at 50% 50%,
+    rgba(155, 0, 26, 0.04) 0%,
+    transparent 70%
+  );
   pointer-events: none;
 }
 
@@ -30,7 +41,8 @@
   }
 }
 
-.textCol {}
+.textCol {
+}
 
 .desc {
   font-size: 1.05rem;
@@ -53,7 +65,9 @@
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 20px 24px;
-  transition: border-color .25s, transform .25s;
+  transition:
+    border-color 0.25s,
+    transform 0.25s;
 
   &:hover {
     border-color: var(--border-strong);
@@ -63,7 +77,8 @@
 
 .cIcon {
   font-size: 1.4rem;
-  width: 44px; height: 44px;
+  width: 44px;
+  height: 44px;
   background: var(--accent-gold-dim);
   border-radius: 10px;
   display: flex;
@@ -75,17 +90,19 @@
 .cLabel {
   display: block;
   font-family: var(--font-mono);
-  font-size: .66rem;
-  letter-spacing: .14em;
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--text-muted);
   margin-bottom: 4px;
 }
 
 .cValue {
-  font-size: .95rem;
+  font-size: 0.95rem;
   color: var(--text-primary);
   word-break: break-all;
-  transition: color .2s;
-  &:hover { color: var(--accent-gold); }
+  transition: color 0.2s;
+  &:hover {
+    color: var(--accent-gold);
+  }
 }
