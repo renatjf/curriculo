@@ -3,11 +3,18 @@
   position: relative;
   z-index: 1;
   &::before {
-    content: '';
+    content: "";
     position: absolute;
-    top: 0; left: 0; right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, var(--border-strong), transparent);
+    background: linear-gradient(
+      90deg,
+      transparent,
+      var(--border-strong),
+      transparent
+    );
   }
 }
 
@@ -25,7 +32,9 @@
 
   &:last-child {
     padding-bottom: 0;
-    .timelineLine { display: none; }
+    .timelineLine {
+      display: none;
+    }
   }
 
   @media (max-width: 600px) {
@@ -46,7 +55,7 @@
   border-radius: 50%;
   background: var(--accent-gold);
   border: 2px solid var(--bg-primary);
-  box-shadow: 0 0 0 3px rgba(201,168,76,.2);
+  box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.2);
   flex-shrink: 0;
   margin-top: 6px;
   position: relative;
@@ -56,7 +65,11 @@
 .timelineLine {
   width: 1px;
   flex: 1;
-  background: linear-gradient(to bottom, rgba(201,168,76,.3), rgba(201,168,76,.05));
+  background: linear-gradient(
+    to bottom,
+    rgba(201, 168, 76, 0.3),
+    rgba(201, 168, 76, 0.05)
+  );
   margin-top: 8px;
 }
 
@@ -65,10 +78,12 @@
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 32px;
-  transition: border-color .25s;
+  transition: border-color 0.25s;
   margin-bottom: 24px;
 
-  &:hover { border-color: var(--border-strong); }
+  &:hover {
+    border-color: var(--border-strong);
+  }
 
   @media (max-width: 600px) {
     padding: 20px;
@@ -93,7 +108,7 @@
 }
 
 .cargo {
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: var(--accent-gold);
   font-weight: 500;
 }
@@ -110,20 +125,21 @@
   flex-shrink: 0;
 }
 
-.periodoStart, .periodoEnd {
+.periodoStart,
+.periodoEnd {
   font-family: var(--font-mono);
-  font-size: .72rem;
+  font-size: 0.72rem;
   color: var(--accent-gold);
-  letter-spacing: .06em;
+  letter-spacing: 0.06em;
 }
 
 .periodoArrow {
-  font-size: .7rem;
+  font-size: 0.7rem;
   color: var(--text-muted);
 }
 
 .resumo {
-  font-size: .95rem;
+  font-size: 0.95rem;
   color: var(--text-secondary);
   line-height: 1.8;
   margin-bottom: 28px;
@@ -133,10 +149,10 @@
 
 .skillsTitle {
   font-family: var(--font-mono);
-  font-size: .7rem;
-  letter-spacing: .16em;
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: white;
   margin-bottom: 18px;
 }
 
@@ -151,7 +167,9 @@
   flex-direction: column;
   gap: 6px;
   margin-bottom: 14px;
-  &:last-child { margin-bottom: 0; }
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .skillMeta {
@@ -161,20 +179,20 @@
 }
 
 .skillNome {
-  font-size: .88rem;
+  font-size: 0.88rem;
   color: var(--text-primary);
   font-weight: 400;
 }
 
 .skillPct {
   font-family: var(--font-mono);
-  font-size: .72rem;
+  font-size: 0.72rem;
   color: var(--accent-gold);
 }
 
 .skillTrack {
   height: 5px;
-  background: rgba(255,255,255,.05);
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 5px;
   overflow: hidden;
 }
@@ -183,15 +201,17 @@
   height: 100%;
   background: linear-gradient(90deg, var(--accent-red), var(--accent-gold));
   border-radius: 5px;
-  transition: width 1s cubic-bezier(.22,1,.36,1);
+  transition: width 1s cubic-bezier(0.22, 1, 0.36, 1);
   position: relative;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
-    right: 0; top: 0; bottom: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     width: 20px;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,.3));
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3));
     border-radius: 5px;
   }
 }

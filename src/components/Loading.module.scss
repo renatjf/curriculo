@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: opacity .6s ease, transform .6s ease;
+  transition: opacity .7s ease;
 
   &.hide {
     opacity: 0;
@@ -14,97 +14,66 @@
   }
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 32px;
-}
-
+/* Wrapper que contém arco + logo centralizados */
 .logoWrap {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 160px;
+  height: 160px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.logo {
-  width: 72px;
-  height: 72px;
-  animation: pulse 1.8s ease-in-out infinite;
-}
-
-.path1 {
-  fill: #9b001a;
-  animation: fadeInPath 1s ease forwards;
-}
-
-.path2 {
-  fill: #9b001a;
-  opacity: .55;
-  animation: fadeInPath 1s ease .3s forwards;
-}
-
-@keyframes fadeInPath {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-@keyframes pulse {
-  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 6px rgba(155,0,26,.3)); }
-  50%       { transform: scale(1.06); filter: drop-shadow(0 0 18px rgba(155,0,26,.7)); }
-}
-
-.ring {
+/* SVG do arco ocupa todo o wrapper */
+.arc {
   position: absolute;
   inset: 0;
-  border-radius: 50%;
-  border: 1.5px solid rgba(155, 0, 26, .25);
-  animation: ringPulse 2s ease-in-out infinite;
-}
-
-@keyframes ringPulse {
-  0%, 100% { transform: scale(1); opacity: .4; }
-  50% { transform: scale(1.12); opacity: .9; }
-}
-
-.barWrap {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  width: 240px;
-}
-
-.bar {
-  flex: 1;
-  height: 2px;
-  background: rgba(155, 0, 26, .15);
-  border-radius: 2px;
-  overflow: hidden;
-}
-
-.barFill {
+  width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, #9b001a, #c9a84c);
-  border-radius: 2px;
-  transition: width .5s cubic-bezier(.22,1,.36,1);
-  box-shadow: 0 0 8px rgba(201,168,76,.5);
 }
 
-.percent {
-  font-family: 'Space Mono', monospace;
-  font-size: .72rem;
-  color: rgba(201,168,76,.7);
-  min-width: 36px;
-  text-align: right;
+/* Arco girando durante o carregamento */
+.arcSpin {
+  stroke-dashoffset: 452;
+  animation: arcFill 2s cubic-bezier(.4, 0, .2, 1) forwards;
 }
 
-.label {
-  font-family: 'Space Mono', monospace;
-  font-size: .68rem;
-  letter-spacing: .18em;
-  text-transform: uppercase;
-  color: rgba(240,237,232,.25);
+/* Arco completo (cheio) quando o carregamento termina */
+.arcDone {
+  stroke-dashoffset: 0;
+}
+
+@keyframes arcFill {
+  from { stroke-dashoffset: 452; }
+  to   { stroke-dashoffset: 0;   }
+}
+
+/* Logo centralizada sobre o arco */
+.logo {
+  position: relative;
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  animation: fadeIn .5s ease forwards;
+  filter: drop-shadow(0 0 8px rgba(155, 0, 26, .35));
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* 3 piscadas após o arco completar */
+.blink {
+  animation: blink3x .8s ease forwards;
+}
+
+@keyframes blink3x {
+  0%        { opacity: 1; filter: drop-shadow(0 0 8px rgba(155,0,26,.35)); }
+  12%       { opacity: 0; filter: none; }
+  25%       { opacity: 1; filter: drop-shadow(0 0 20px rgba(201,168,76,.9)); }
+  37%       { opacity: 0; filter: none; }
+  54%       { opacity: 1; filter: drop-shadow(0 0 20px rgba(201,168,76,.9)); }
+  66%       { opacity: 0; filter: none; }
+  82%, 100% { opacity: 1; filter: drop-shadow(0 0 28px rgba(201,168,76,1)); }
 }

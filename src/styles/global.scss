@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geist:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --bg-primary: #080810;
@@ -15,12 +15,9 @@
   --text-muted: #55524e;
   --border: rgba(201, 168, 76, 0.1);
   --border-strong: rgba(201, 168, 76, 0.28);
-
-  /* 👉 Agora tudo usa Roboto */
-  --font-display: "Roboto", sans-serif;
+  --font-display: "Roboto", Georgia, serif;
   --font-body: "Roboto", sans-serif;
-  --font-mono: "Roboto", monospace;
-
+  --font-mono: "Roboto Mono", monospace;
   --section-pad: clamp(80px, 10vw, 130px);
   --container: 1100px;
   --radius: 12px;
@@ -41,7 +38,7 @@ html {
 body {
   background: var(--bg-primary);
   color: var(--text-primary);
-  font-family: "Roboto", sans-serif; /* reforço direto */
+  font-family: var(--font-body);
   font-weight: 300;
   line-height: 1.75;
   overflow-x: hidden;
@@ -70,7 +67,7 @@ img {
 }
 
 .section-tag {
-  font-family: var(--font-body);
+  font-family: var(--font-mono);
   font-size: 0.7rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -79,14 +76,13 @@ img {
   align-items: center;
   gap: 10px;
   margin-bottom: 14px;
-}
-
-.section-tag::before {
-  content: "";
-  display: block;
-  width: 28px;
-  height: 1px;
-  background: var(--accent-gold);
+  &::before {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 1px;
+    background: var(--accent-gold);
+  }
 }
 
 .section-title {
@@ -95,11 +91,10 @@ img {
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 14px;
-}
-
-.section-title em {
-  font-style: italic;
-  color: var(--accent-gold);
+  em {
+    font-style: italic;
+    color: var(--accent-gold);
+  }
 }
 
 .section-subtitle {
@@ -117,49 +112,15 @@ img {
   transition:
     opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1),
     transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
-
-.anim.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* substituindo @for (Sass) por CSS puro */
-.d1 {
-  transition-delay: 80ms;
-}
-.d2 {
-  transition-delay: 160ms;
-}
-.d3 {
-  transition-delay: 240ms;
-}
-.d4 {
-  transition-delay: 320ms;
-}
-.d5 {
-  transition-delay: 400ms;
-}
-.d6 {
-  transition-delay: 480ms;
-}
-.d7 {
-  transition-delay: 560ms;
-}
-.d8 {
-  transition-delay: 640ms;
-}
-.d9 {
-  transition-delay: 720ms;
-}
-.d10 {
-  transition-delay: 800ms;
-}
-.d11 {
-  transition-delay: 880ms;
-}
-.d12 {
-  transition-delay: 960ms;
+@for $i from 1 through 12 {
+  .d#{$i} {
+    transition-delay: #{$i * 80}ms;
+  }
 }
 
 @keyframes fadeUp {

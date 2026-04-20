@@ -5,7 +5,6 @@ import Hero from './components/Hero'
 import Sobre from './components/Sobre'
 import Formacao from './components/Formacao'
 import Especializacoes from './components/Especializacoes'
-import Portfolio from './components/Portfolio'
 import Experiencias from './components/Experiencias'
 import Contato from './components/Contato'
 import Footer from './components/Footer'
@@ -41,7 +40,6 @@ export default function App() {
         <Sobre />
         <Formacao />
         <Especializacoes />
-        <Portfolio />
         <Experiencias />
         <Contato />
       </main>

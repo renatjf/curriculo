@@ -78,7 +78,7 @@
   display: block;
   animation: fadeUp 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
   &:last-child {
-    font-weight: 400;
+    font-weight: normal;
     color: var(--accent-gold);
   }
 }

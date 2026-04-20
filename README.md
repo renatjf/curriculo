@@ -1,4 +1,4 @@
-# 💼 Currículo — Vite + React + SCSS
+# 💼 Portfólio Currículo — Vite + React + SCSS
 
 Currículo profissional em formato de homepage com efeito parallax, loading animado com logo, animações ao scroll e barras de habilidade dinâmicas.
 
@@ -10,7 +10,6 @@ Currículo profissional em formato de homepage com efeito parallax, loading anim
 - npm (já vem com o Node)
 
 Verifique com:
-
 ```bash
 node -v
 npm -v
@@ -21,13 +20,11 @@ npm -v
 ## 🚀 Instalação e execução
 
 ### 1. Instalar dependências
-
 ```bash
 npm install
 ```
 
 ### 2. Rodar em desenvolvimento
-
 ```bash
 npm run dev
 ```
@@ -35,13 +32,11 @@ npm run dev
 Acesse em: `http://localhost:5173`
 
 ### 3. Build para produção
-
 ```bash
 npm run build
 ```
 
 ### 4. Visualizar o build
-
 ```bash
 npm run preview
 ```
@@ -52,19 +47,19 @@ npm run preview
 
 Edite o arquivo **`src/data.js`** com suas informações:
 
-| Campo               | Descrição                                                        |
-| ------------------- | ---------------------------------------------------------------- |
-| `personal.nome`     | Seu nome completo                                                |
-| `personal.titulo`   | Título profissional                                              |
-| `personal.foto`     | URL da foto (LinkedIn ou outra)                                  |
-| `personal.sobre`    | Texto de apresentação (parágrafos separados por linha em branco) |
-| `personal.celular`  | Número de telefone                                               |
-| `personal.email`    | E-mail de contato                                                |
-| `personal.cidade`   | Cidade / estado                                                  |
-| `personal.linkedin` | URL completa do LinkedIn                                         |
-| `formacao`          | Array de formações acadêmicas                                    |
-| `especializacoes`   | Array de cursos e certificações                                  |
-| `experiencias`      | Array de empresas com tecnologias e porcentagens                 |
+| Campo | Descrição |
+|---|---|
+| `personal.nome` | Seu nome completo |
+| `personal.titulo` | Título profissional |
+| `personal.foto` | URL da foto (LinkedIn ou outra) |
+| `personal.sobre` | Texto de apresentação (parágrafos separados por linha em branco) |
+| `personal.celular` | Número de telefone |
+| `personal.email` | E-mail de contato |
+| `personal.cidade` | Cidade / estado |
+| `personal.linkedin` | URL completa do LinkedIn |
+| `formacao` | Array de formações acadêmicas |
+| `especializacoes` | Array de cursos e certificações |
+| `experiencias` | Array de empresas com tecnologias e porcentagens |
 
 ---
 
