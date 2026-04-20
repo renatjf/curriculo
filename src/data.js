@@ -141,11 +141,11 @@ export const experiencias = [
     resumo:
       "Atuação como Especialista em Desenvolvimento, liderando iniciativas de transformação digital e inovação tecnológica. Responsável por estruturar e evoluir arquiteturas Front-end modernas, impulsionar práticas ágeis (Scrum, Kanban, SAFe) e melhorar performance, acessibilidade e experiência do usuário em aplicações de grande escala. Desenvolvimento de Design Systems e UI Libraries para garantir consistência e escalabilidade.",
     tecnologias: [
-      { nome: "React.js", porcentagem: 88 },
-      { nome: "Redux", porcentagem: 85 },
-      { nome: "Programação Orientada a Objetos", porcentagem: 70 },
-      { nome: "Comunicação", porcentagem: 80 },
-      { nome: "Padrões de Projeto", porcentagem: 75 },
+      { nome: "React.js", porcentagem: 90 },
+      { nome: "Redux", porcentagem: 90 },
+      { nome: "Programação Orientada a Objetos", porcentagem: 100 },
+      { nome: "Comunicação", porcentagem: 95 },
+      { nome: "Padrões de Projeto", porcentagem: 80 },
       { nome: "CI/CD", porcentagem: 80 },
     ],
   },
@@ -209,6 +209,36 @@ export const experiencias = [
       { nome: "CSS/SCSS", porcentagem: 100 },
       { nome: "Git", porcentagem: 100 },
       { nome: "Jenkins", porcentagem: 95 },
+    ],
+  },
+  {
+    empresa: "Naked Brasil",
+    cargo: "Senior Development Front End",
+    inicio: "Janeiro 2015",
+    fim: "Julho 2015",
+    resumo:
+      "Desenvolvimento do Portal Oi e sua infraestrutura. Criação de novos componentes e manutenção do código existente, garantindo a qualidade e a performance das aplicações.",
+    tecnologias: [
+      { nome: "React.js", porcentagem: 100 },
+      { nome: "Redux", porcentagem: 100 },
+      { nome: "CSS/SCSS", porcentagem: 100 },
+      { nome: "Git", porcentagem: 100 },
+      { nome: "webpack", porcentagem: 95 },
+    ],
+  },
+  {
+    empresa: "FGV - Fundação Getúlio Vargas",
+    cargo: "Senior Development Front End",
+    inicio: "Setembro 2013",
+    fim: "Outubro 2014",
+    resumo:
+      "Desenvolvimento do portal de métricas da Fundação Getúlio Vargas, utilizando as melhores práticas de desenvolvimento front-end para garantir a qualidade e a performance das aplicações. Criação de novos componentes e manutenção do código existente, garantindo a qualidade e a performance das aplicações.",
+    tecnologias: [
+      { nome: "CSS", porcentagem: 100 },
+      { nome: "Git", porcentagem: 100 },
+      { nome: "Node.js", porcentagem: 95 },
+      { nome: "JavaScript", porcentagem: 100 },
+      { nome: "Html", porcentagem: 100 },
     ],
   },
 ];
