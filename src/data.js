@@ -158,12 +158,57 @@ export const experiencias = [
     resumo:
       "Responsável pela transformação digital Estante Virtual com a base em Vue.js e Nuxt.js, liderando a equipe de desenvolvimento e promovendo a adoção de práticas ágeis. Implementação de soluções escaláveis e performáticas, garantindo alta qualidade e entrega contínua. Gerenciamento de equipe de TI, cerimônias ágil, apoio em demandas DEVOPS, configuração de ambientes AWS e CI/CD para testes e deploy.",
     tecnologias: [
-      { nome: "Vue.js", porcentagem: 75 },
+      { nome: "Vue.js", porcentagem: 90 },
+      { nome: "Nuxt.js", porcentagem: 90 },
       { nome: "CSS/SCSS", porcentagem: 85 },
-      { nome: "JavaScript", porcentagem: 80 },
-      { nome: "Git", porcentagem: 70 },
+      { nome: "JavaScript", porcentagem: 100 },
+      { nome: "Git", porcentagem: 100 },
       { nome: "AWS", porcentagem: 65 },
       { nome: "CI/CD", porcentagem: 70 },
+    ],
+  },
+  {
+    empresa: "Livraria Cultura",
+    cargo: "Senior Development Front End",
+    inicio: "Junho 2018",
+    fim: "Setembro 2019",
+    resumo:
+      "Atuação como Senior Front End Developer, liderando a implementação de soluções escaláveis e performáticas para a plataforma de e-commerce da Livraria Cultura. Responsável por garantir alta qualidade e entrega contínua, promovendo a adoção de práticas ágeis e colaborando com equipes multidisciplinares para otimizar a experiência do usuário e impulsionar resultados de negócios.",
+    tecnologias: [
+      { nome: "JavaScript", porcentagem: 100 },
+      { nome: "jQuery", porcentagem: 100 },
+      { nome: "CSS", porcentagem: 100 },
+      { nome: "Git", porcentagem: 100 },
+      { nome: "Jenkins", porcentagem: 95 },
+    ],
+  },
+  {
+    empresa: "VML Brasil (Mesma empresa do grupo Naked)",
+    cargo: "Senior Development Front End",
+    inicio: "Agosto 2015",
+    fim: "Maio 2018",
+    resumo:
+      "Atuação como Senior Front End Developer, liderando a implementação de soluções escaláveis e performáticas para clientes de grande porte. Responsável por garantir alta qualidade e entrega contínua, promovendo a adoção de práticas ágeis e colaborando com equipes multidisciplinares para otimizar a experiência do usuário e impulsionar resultados de negócios.",
+    tecnologias: [
+      { nome: "React.js", porcentagem: 100 },
+      { nome: "Redux", porcentagem: 100 },
+      { nome: "CSS/SCSS", porcentagem: 100 },
+      { nome: "Git", porcentagem: 100 },
+      { nome: "Jenkins", porcentagem: 95 },
+    ],
+  },
+  {
+    empresa: "Oi S/A",
+    cargo: "Senior Development Front End",
+    inicio: "Janeiro 2015",
+    fim: "Julho 2015",
+    resumo: "Desenvolvimento do Portal Oi e sua infraestrutura.",
+    tecnologias: [
+      { nome: "React.js", porcentagem: 100 },
+      { nome: "Redux", porcentagem: 100 },
+      { nome: "CSS/SCSS", porcentagem: 100 },
+      { nome: "Git", porcentagem: 100 },
+      { nome: "Jenkins", porcentagem: 95 },
     ],
   },
 ];
