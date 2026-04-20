@@ -1,13 +1,15 @@
-import { especializacoes } from '../data'
-import styles from './Especializacoes.module.scss'
+import { especializacoes } from "../data";
+import styles from "./Especializacoes.module.scss";
 
 export default function Especializacoes() {
   return (
     <section className={styles.section} id="especializacoes">
       <div className="container">
         <p className="section-tag anim">Capacitação</p>
-        <h2 className="section-title anim d1"><em>Especializações</em> & cursos</h2>
-        <p className="section-subtitle anim d2">Aprendizado contínuo como forma de entrega de valor.</p>
+        <h2 className="section-title anim d1">Especializações</h2>
+        <p className="section-subtitle anim d2">
+          Aprendizado contínuo como forma de entrega de valor.
+        </p>
 
         <div className={styles.grid}>
           {especializacoes.map((e, i) => (
@@ -23,5 +25,5 @@ export default function Especializacoes() {
         </div>
       </div>
     </section>
-  )
+  );
 }

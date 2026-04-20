@@ -86,17 +86,34 @@ export const formacao = [
 
 export const especializacoes = [
   {
-    nome: "AWS Cloud Practitioner",
-    instituicao: "Amazon Web Services",
-    ano: "2023",
+    nome: "Google Cloud Associate",
+    instituicao: "Google Cloud",
+    ano: "4 anos de experiência",
   },
-  { nome: "Google Cloud Associate", instituicao: "Google Cloud", ano: "2022" },
-  { nome: "React — The Complete Guide", instituicao: "Udemy", ano: "2022" },
-  { nome: "Node.js Avançado", instituicao: "Alura", ano: "2021" },
-  { nome: "Docker & Kubernetes", instituicao: "Linux Foundation", ano: "2021" },
-  { nome: "Clean Architecture", instituicao: "Udemy", ano: "2020" },
-  { nome: "Scrum Master Certified", instituicao: "ScrumAlliance", ano: "2020" },
-  { nome: "TypeScript Completo", instituicao: "Rocketseat", ano: "2019" },
+  {
+    nome: "React.js — The Complete Guide",
+    instituicao: "",
+    ano: "12 anos de experiência",
+  },
+  {
+    nome: "Next.js — The Complete Guide",
+    instituicao: "",
+    ano: "8 anos de experiência",
+  },
+  { nome: "Node.js Avançado", instituicao: "", ano: "5 anos de experiência" },
+  {
+    nome: "Docker",
+    instituicao: "Linux Foundation",
+    ano: "7 anos de experiência",
+  },
+  { nome: "Gestão Ágil com Scrum", instituicao: "Udemy Alumni", ano: "2024" },
+  { nome: "Vue.js", instituicao: "", ano: "7 anos de experiência" },
+  { nome: "Nuxt.js", instituicao: "", ano: "7 anos de experiência" },
+  { nome: "Angular", instituicao: "", ano: "6 anos de experiência" },
+  { nome: "S3 AWS", instituicao: "", ano: "6 anos de experiência" },
+  { nome: "CI/CD", instituicao: "", ano: "6 anos de experiência" },
+  { nome: "SCSS/SASS", instituicao: "", ano: "8 anos de experiência" },
+  { nome: "Styled-Components", instituicao: "", ano: "8 anos de experiência" },
 ];
 
 export const experiencias = [
