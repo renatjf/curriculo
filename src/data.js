@@ -241,4 +241,70 @@ export const experiencias = [
       { nome: "Html", porcentagem: 100 },
     ],
   },
+  {
+    empresa: "Amil Assistência Médica Internacional",
+    cargo: "Senior Development Front End",
+    inicio: "Janeiro 2010",
+    fim: "Abril 2013",
+    resumo:
+      "Desenvolvimento de sites, hotsites e micro sistemas em php, javascript, css e wordpress para clientes da Amil. Realizei trabalhos de usabilidade em Photoshop e Illustrator.",
+    tecnologias: [
+      { nome: "CSS", porcentagem: 100 },
+      { nome: "Git", porcentagem: 100 },
+      { nome: "JavaScript", porcentagem: 100 },
+      { nome: "Html", porcentagem: 100 },
+      { nome: "jQuery", porcentagem: 100 },
+      { nome: "WordPress", porcentagem: 95 },
+    ],
+  },
+  {
+    empresa: "Kaktus Tecnologia",
+    cargo: "Desenvolvedor web",
+    inicio: "Março 2007",
+    fim: "Novembro 2009",
+    resumo:
+      "Responsável por todo o desenvolvimento web, portais, websites, hotsites e campanhas publicitárias.",
+    tecnologias: [
+      { nome: "CSS", porcentagem: 100 },
+      { nome: "Git", porcentagem: 100 },
+      { nome: "JavaScript", porcentagem: 100 },
+      { nome: "Html", porcentagem: 100 },
+      { nome: "jQuery", porcentagem: 100 },
+      { nome: "WordPress", porcentagem: 95 },
+    ],
+  },
+  {
+    empresa: "SEAGULLS FLY LLC (Transferida da Kaktus Tecnologia)",
+    cargo: "Senior Ux Designer - Web",
+    inicio: "Março 2007",
+    fim: "Novembro 2009",
+    resumo:
+      "Responsável por todo o desenvolvimento web, portais, websites, hotsites e campanhas publicitárias.",
+    tecnologias: [
+      { nome: "Adobe Flash", porcentagem: 100 },
+      { nome: "Adobe Illustrator", porcentagem: 100 },
+      { nome: "JavaScript", porcentagem: 100 },
+      { nome: "Html", porcentagem: 100 },
+      { nome: "jQuery", porcentagem: 100 },
+      { nome: "WordPress", porcentagem: 95 },
+      { nome: "Adobe Photoshop", porcentagem: 100 },
+    ],
+  },
+  {
+    empresa: "Divulgação Publicidade",
+    cargo: "Desenvolvedor Web",
+    inicio: "Abril 2006",
+    fim: "Dezembro 2008",
+    resumo:
+      "Desenvolvimento de projetos varejo para jornais e tv, incluindo websites e portais. Responsável por todo o desenvolvimento web, portais, websites, hotsites e campanhas publicitárias.",
+    tecnologias: [
+      { nome: "Adobe Flash", porcentagem: 100 },
+      { nome: "Adobe Illustrator", porcentagem: 100 },
+      { nome: "JavaScript", porcentagem: 100 },
+      { nome: "Html", porcentagem: 100 },
+      { nome: "jQuery", porcentagem: 100 },
+      { nome: "WordPress", porcentagem: 95 },
+      { nome: "Adobe Photoshop", porcentagem: 100 },
+    ],
+  },
 ];
