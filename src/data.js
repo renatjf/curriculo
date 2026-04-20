@@ -150,17 +150,20 @@ export const experiencias = [
     ],
   },
   {
-    empresa: "StartupHub",
-    cargo: "Desenvolvedor Front-End Junior",
-    inicio: "Jun 2019",
-    fim: "Fev 2020",
+    empresa: "Estante Virtual (Grupo Magazine Luiza)",
+    cargo:
+      "Squad Leader | Tech Lead Front End at Estante Virtual | Magazine Luiza Labs",
+    inicio: "Setembro 2019",
+    fim: "Fevereiro 2023",
     resumo:
-      "Desenvolvimento de interfaces modernas e responsivas para plataforma de gestão de projetos. Integração com APIs REST, implementação de design system e otimização de performance (Lighthouse score de 60 para 95).",
+      "Responsável pela transformação digital Estante Virtual com a base em Vue.js e Nuxt.js, liderando a equipe de desenvolvimento e promovendo a adoção de práticas ágeis. Implementação de soluções escaláveis e performáticas, garantindo alta qualidade e entrega contínua. Gerenciamento de equipe de TI, cerimônias ágil, apoio em demandas DEVOPS, configuração de ambientes AWS e CI/CD para testes e deploy.",
     tecnologias: [
-      { nome: "React", porcentagem: 75 },
+      { nome: "Vue.js", porcentagem: 75 },
       { nome: "CSS/SCSS", porcentagem: 85 },
       { nome: "JavaScript", porcentagem: 80 },
       { nome: "Git", porcentagem: 70 },
+      { nome: "AWS", porcentagem: 65 },
+      { nome: "CI/CD", porcentagem: 70 },
     ],
   },
 ];
