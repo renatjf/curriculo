@@ -57,6 +57,20 @@ export const formacao = [
       "Curso intensivo de Vue.js, abordando desde os fundamentos até técnicas avançadas de desenvolvimento, incluindo Vuex, Vue Router e otimização de performance.",
   },
   {
+    curso: "Nuxt.js Avançado",
+    instituicao: "Udemy Alumni",
+    periodo: "2018 – 2018",
+    descricao:
+      "Curso intensivo de Nuxt.js, abordando desde os fundamentos até técnicas avançadas de desenvolvimento, incluindo Vuex, Vue Router e otimização de performance.",
+  },
+  {
+    curso: "React.js Avançado",
+    instituicao: "Udemy Alumni",
+    periodo: "2018 – 2018",
+    descricao:
+      "Curso intensivo de React.js, abordando desde os fundamentos até técnicas avançadas de desenvolvimento, incluindo Redux, React Router e otimização de performance.",
+  },
+  {
     curso: "Gestão Ágil com Scrum",
     instituicao: "Udemy Alumni",
     periodo: "2024 – 2024",
@@ -116,6 +130,8 @@ export const especializacoes = [
   { nome: "CI/CD", instituicao: "", ano: "6 anos de experiência" },
   { nome: "SCSS/SASS", instituicao: "", ano: "8 anos de experiência" },
   { nome: "Styled-Components", instituicao: "", ano: "8 anos de experiência" },
+  { nome: "Tailwind CSS", instituicao: "", ano: "4 anos de experiência" },
+  { nome: "MongoDB", instituicao: "", ano: "4 anos de experiência" },
 ];
 
 export const experiencias = [
