@@ -73,6 +73,14 @@ export default function Hero() {
             >
               Entrar em contato
             </a>
+            <a
+              href="https://curriculo-renato-freitas.netlify.app/curriculo-renato-freitas.pdf"
+              className={styles.btnSecondary}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Currículo PDF
+            </a>
           </div>
         </div>
 
