@@ -37,6 +37,8 @@ Mais do que desenvolver software, meu objetivo é construir soluções que gerem
   cidade: "Rio de Janeiro, RJ — Brasil",
   linkedin: "https://www.linkedin.com/in/renato-freitas-a5190916/",
   linkedinLabel: "linkedin Renato Freitas",
+  curriculo:
+    "https://curriculo-renato-freitas.netlify.app/curriculo-renato-freitas.pdf",
 };
 
 export const formacao = [

@@ -25,6 +25,12 @@ const items = [
     value: personal.linkedinLabel,
     href: personal.linkedin,
   },
+  {
+    icon: <span class="material-symbols-outlined">picture_as_pdf</span>,
+    label: "Currículo PDF",
+    value: "Baixar currículo",
+    href: personal.curriculo,
+  },
 ];
 
 export default function Contato() {

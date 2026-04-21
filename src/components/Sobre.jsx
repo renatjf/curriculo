@@ -80,6 +80,16 @@ export default function Sobre() {
                   value={personal.linkedinLabel}
                   href={personal.linkedin}
                 />
+                <InfoItem
+                  icon={
+                    <span className="material-symbols-outlined">
+                      picture_as_pdf
+                    </span>
+                  }
+                  label="Currículo PDF"
+                  value="Baixar currículo"
+                  href={personal.curriculo}
+                />
               </div>
             </div>
           </div>
