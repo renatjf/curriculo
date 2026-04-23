@@ -140,16 +140,15 @@ export const experiencias = [
     cargo: "Software Engineer Sênior",
     inicio: "Setembro 2024",
     fim: "Fevereiro 2026",
-    resumo: `Atuação como Software Engineer Sênior em startup de inteligência artificial, liderando o desenvolvimento de soluções escaláveis para análise de dados e automação de processos. 
-    Responsável por arquitetar e implementar sistemas robustos utilizando tecnologias modernas, garantindo alta performance e segurança.
-    Colaboração estreita com equipes multidisciplinares para entregar produtos inovadores que atendam às necessidades dos clientes.`,
+    resumo: `- Desenvolvimento de aplicações escaláveis em React e Next.js
+- Arquitetura de soluções para análise de dados e automação
+- Colaboração com times multidisciplinares em produtos de IA
+- Foco em performance, segurança e qualidade de código`,
     tecnologias: [
       { nome: "React", porcentagem: 95 },
-      { nome: "Node.js", porcentagem: 90 },
-      { nome: "Express.js", porcentagem: 85 },
+      { nome: "Next.js", porcentagem: 80 },
       { nome: "MongoDB", porcentagem: 90 },
       { nome: "CI/CD", porcentagem: 85 },
-      { nome: "Next.js", porcentagem: 80 },
       { nome: "TypeScript", porcentagem: 92 },
       { nome: "AWS", porcentagem: 80 },
       { nome: "Styled-Components", porcentagem: 75 },
