@@ -5,10 +5,10 @@
 export const personal = {
   nome: "Renato Freitas",
   titulo:
-    "Full Stack Sênior FrontEnd | Node | React | Vue | Angular | Typescript | Projetos escaláveis | MongoDB",
+    "Frontend Specialist | React | Vue | Angular | Typescript | MongoDB | Scalable Systems | Performance Optimization | UX | CI/CD",
   subtitulo: "Criando experiências digitais com propósito",
   foto: "/foto-Linkedin.jpg",
-  sobre: `Sou profissional com mais de 15 anos de experiência em desenvolvimento Front-end, especializado na construção de produtos digitais escaláveis, performáticos e centrados no usuário.
+  sobre: `Sou profissional com mais de 15 anos de experiência em desenvolvimento Frontend, especializado na construção de produtos digitais escaláveis, performáticos e centrados no usuário.
 
 Atuo na interseção entre tecnologia, design e estratégia, liderando times e iniciativas de transformação digital com foco em entrega de valor real para o negócio.
 
@@ -16,7 +16,7 @@ Ao longo da minha trajetória, tive a oportunidade de:
 
 ✔ Liderar squads multidisciplinares como Tech Lead e Coordenador de Sistemas, promovendo cultura de alta performance, colaboração e inovação.
 
-✔ Estruturar e evoluir arquiteturas Front-end modernas
+✔ Estruturar e evoluir arquiteturas Frontend modernas
 
 ✔ Impulsionar práticas ágeis (Scrum, Kanban, SAFe) com foco em eficiência e qualidade
 
@@ -160,8 +160,22 @@ export const experiencias = [
     cargo: "Coordenador de sistemas / Época Cosméticos / Magazine Luiza - Labs",
     inicio: "Maio 2023",
     fim: "Julho 2024",
-    resumo: `Coordenação técnica e liderança de squads multidisciplinares, promovendo cultura de alta performance, colaboração e inovação. Estruturação e evolução de arquiteturas Front-end modernas, impulsionando práticas ágeis (Scrum, Kanban, SAFe) com foco em eficiência e qualidade.
-      Melhoria de performance, acessibilidade e experiência do usuário em aplicações de grande escala. Design Systems e UI Libraries para garantir consistência e escalabilidade.`,
+    resumo: `Magalu Pay (Pagamentos):
+
+- Liderança técnica na arquitetura frontend de plataforma de pagamentos
+- Desenvolvimento de aplicações React escaláveis para alto volume de transações
+- Melhoria de performance reduzindo tempo de carregamento em ~30%
+- Criação de Design System utilizado por múltiplos squads
+- Integração com APIs e serviços financeiros com foco em confiabilidade
+
+Liderança & Plataforma:
+
+- Coordenação de squads e evolução de arquiteturas frontend
+- Adoção de práticas ágeis (Scrum, Kanban, SAFe)
+- Melhoria contínua de performance, acessibilidade e UX
+- Disseminação de cultura de alta performance e inovação
+- Foco em impacto de negócio e experiência do usuário
+`,
     tecnologias: [
       { nome: "React.js", porcentagem: 88 },
       { nome: "TypeScript", porcentagem: 85 },
@@ -173,29 +187,18 @@ export const experiencias = [
   },
   {
     empresa: "Magazine Luiza - Labs",
-    cargo:
-      "Especialista em desenvolvimento at (Magazine Luiza - Labs) / Época Cosméticos",
+    cargo: "Especialista Frontend",
     inicio: "Março 2022",
     fim: "Maio 2023",
-    resumo: `Atuei como Especialista em Desenvolvimento no contexto do Magalu Pay, iniciativa de pagamentos do Magazine Luiza, liderando frentes de transformação digital e evolução tecnológica em aplicações de grande escala.
-    Fui responsável por estruturar e evoluir arquiteturas front-end modernas, baseadas em React, com foco em escalabilidade, performance e manutenibilidade. Atuei diretamente na definição de padrões técnicos, promovendo boas práticas de engenharia e garantindo consistência entre múltiplos times e produtos.
-
-    Liderei iniciativas voltadas à melhoria contínua da experiência do usuário, com forte atuação em:
-     - Performance (otimização de carregamento, code splitting, lazy loading)
-     - Acessibilidade (aderência a boas práticas e padrões como WCAG)
-     - Experiência do usuário (UX) em fluxos críticos, como checkout e carteira digital
-
-     Também tive papel ativo na disseminação de metodologias ágeis, atuando em ambientes com Scrum, Kanban e SAFe, contribuindo para maior previsibilidade, eficiência e alinhamento entre áreas técnicas e de negócio.
-     Outro destaque foi a criação e evolução de Design Systems e UI Libraries, garantindo padronização visual e técnica, além de acelerar o desenvolvimento e reduzir retrabalho em diferentes squads.
-
-     Como principais desafios, destaco:
-      - Escalar aplicações front-end em um ecossistema com alto volume de acessos simultâneos
-      - Garantir segurança e confiabilidade em fluxos financeiros sensíveis
-      - Integrar múltiplos serviços e APIs de pagamento mantendo uma experiência fluida
-      - Equilibrar velocidade de entrega com qualidade técnica e sustentabilidade do código
-
-      Essa experiência consolidou minha atuação estratégica como especialista, conectando decisões técnicas ao impacto direto no negócio e na experiência do usuário.
-    `,
+    resumo: ` - Liderança técnica na arquitetura frontend da plataforma de pagamentos (Magalu Pay)
+ - Desenvolvimento de aplicações React escaláveis para alto volume de transações
+ - Otimização de performance (code splitting, lazy loading) em fluxos críticos como checkout e carteira digital
+ - Evolução da experiência do usuário com foco em conversão e usabilidade
+ - Criação e adoção de Design System utilizado por múltiplos squads
+ - Definição de padrões técnicos e boas práticas de engenharia
+ - Integração com APIs e serviços financeiros garantindo confiabilidade e segurança
+ - Atuação em ambiente ágil (Scrum, Kanban, SAFe)
+`,
     tecnologias: [
       { nome: "React.js", porcentagem: 90 },
       { nome: "Redux", porcentagem: 90 },
@@ -208,11 +211,14 @@ export const experiencias = [
   {
     empresa: "Estante Virtual (Grupo Magazine Luiza)",
     cargo:
-      "Squad Leader | Tech Lead Front End at Estante Virtual | Magazine Luiza Labs",
+      "Squad Leader | Tech Lead Frontend at Estante Virtual | Magazine Luiza Labs",
     inicio: "Setembro 2019",
     fim: "Fevereiro 2023",
-    resumo: `Responsável pela transformação digital Estante Virtual com a base em Vue.js e Nuxt.js, liderando a equipe de desenvolvimento e promovendo a adoção de práticas ágeis.
-      Implementação de soluções escaláveis e performáticas, garantindo alta qualidade e entrega contínua. Gerenciamento de equipe de TI, cerimônias ágil, apoio em demandas DEVOPS, configuração de ambientes AWS e CI/CD para testes e deploy.`,
+    resumo: `- Liderança da transformação digital da plataforma
+- Desenvolvimento de nova arquitetura com Vue.js e Nuxt.js
+- Implementação de CI/CD e melhoria de performance do portal
+- Gestão de equipe e apoio em DevOps (AWS)
+`,
     tecnologias: [
       { nome: "Vue.js", porcentagem: 90 },
       { nome: "Nuxt.js", porcentagem: 90 },
@@ -225,10 +231,10 @@ export const experiencias = [
   },
   {
     empresa: "Livraria Cultura",
-    cargo: "Senior Development Front End",
+    cargo: "Senior Development Frontend",
     inicio: "Junho 2018",
     fim: "Setembro 2019",
-    resumo: `Atuação como Senior Front End Developer, liderando a implementação de soluções escaláveis e performáticas para a plataforma de e-commerce da Livraria Cultura.
+    resumo: `Atuação como Senior Frontend Developer, liderando a implementação de soluções escaláveis e performáticas para a plataforma de e-commerce da Livraria Cultura.
       Responsável por garantir alta qualidade e entrega contínua, promovendo a adoção de práticas ágeis e colaborando com equipes multidisciplinares para otimizar a experiência do usuário e impulsionar resultados de negócios.`,
     tecnologias: [
       { nome: "JavaScript", porcentagem: 100 },
@@ -240,11 +246,12 @@ export const experiencias = [
   },
   {
     empresa: "VML Brasil (Mesma empresa do grupo Naked)",
-    cargo: "Senior Development Front End",
+    cargo: "Senior Development Frontend",
     inicio: "Agosto 2015",
     fim: "Maio 2018",
-    resumo: `Atuação como Senior Front End Developer, liderando a implementação de soluções escaláveis e performáticas para clientes de grande porte.
-      Responsável por garantir alta qualidade e entrega contínua, promovendo a adoção de práticas ágeis e colaborando com equipes multidisciplinares para otimizar a experiência do usuário e impulsionar resultados de negócios.`,
+    resumo: `- Desenvolvimento de portal de grande escala (Oi)
+- Criação de componentes e arquitetura frontend
+`,
     tecnologias: [
       { nome: "React.js", porcentagem: 100 },
       { nome: "Redux", porcentagem: 100 },
@@ -255,7 +262,7 @@ export const experiencias = [
   },
   {
     empresa: "Oi S/A",
-    cargo: "Senior Development Front End",
+    cargo: "Senior Development Frontend",
     inicio: "Janeiro 2015",
     fim: "Julho 2015",
     resumo: `Desenvolvimento do Portal Oi e sua infraestrutura.`,
@@ -269,7 +276,7 @@ export const experiencias = [
   },
   {
     empresa: "Naked Brasil",
-    cargo: "Senior Development Front End",
+    cargo: "Senior Development Frontend",
     inicio: "Janeiro 2015",
     fim: "Julho 2015",
     resumo: `Desenvolvimento do Portal Oi e sua infraestrutura.
@@ -284,10 +291,10 @@ export const experiencias = [
   },
   {
     empresa: "FGV - Fundação Getúlio Vargas",
-    cargo: "Senior Development Front End",
+    cargo: "Senior Development Frontend",
     inicio: "Setembro 2013",
     fim: "Outubro 2014",
-    resumo: `Desenvolvimento do portal de métricas da Fundação Getúlio Vargas, utilizando as melhores práticas de desenvolvimento front-end para garantir a qualidade e a performance das aplicações.
+    resumo: `Desenvolvimento do portal de métricas da Fundação Getúlio Vargas, utilizando as melhores práticas de desenvolvimento frontend para garantir a qualidade e a performance das aplicações.
       Criação de novos componentes e manutenção do código existente, garantindo a qualidade e a performance das aplicações.`,
     tecnologias: [
       { nome: "CSS", porcentagem: 100 },
@@ -299,7 +306,7 @@ export const experiencias = [
   },
   {
     empresa: "Amil Assistência Médica Internacional",
-    cargo: "Senior Development Front End",
+    cargo: "Senior Development Frontend",
     inicio: "Janeiro 2010",
     fim: "Abril 2013",
     resumo: `Desenvolvimento de sites, hotsites e micro sistemas em php, javascript, css e wordpress para clientes da Amil.
