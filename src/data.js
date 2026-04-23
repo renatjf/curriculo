@@ -140,11 +140,16 @@ export const experiencias = [
     cargo: "Software Engineer Sênior",
     inicio: "Setembro 2024",
     fim: "Fevereiro 2026",
-    resumo:
-      "Atuação como Software Engineer Sênior em startup de inteligência artificial, liderando o desenvolvimento de soluções escaláveis para análise de dados e automação de processos. Responsável por arquitetar e implementar sistemas robustos utilizando tecnologias modernas, garantindo alta performance e segurança. Colaboração estreita com equipes multidisciplinares para entregar produtos inovadores que atendam às necessidades dos clientes.",
+    resumo: `Atuação como Software Engineer Sênior em startup de inteligência artificial, liderando o desenvolvimento de soluções escaláveis para análise de dados e automação de processos. 
+    Responsável por arquitetar e implementar sistemas robustos utilizando tecnologias modernas, garantindo alta performance e segurança.
+    Colaboração estreita com equipes multidisciplinares para entregar produtos inovadores que atendam às necessidades dos clientes.`,
     tecnologias: [
       { nome: "React", porcentagem: 95 },
-      { nome: "MongoDB.js", porcentagem: 90 },
+      { nome: "Node.js", porcentagem: 90 },
+      { nome: "Express.js", porcentagem: 85 },
+      { nome: "MongoDB", porcentagem: 90 },
+      { nome: "CI/CD", porcentagem: 85 },
+      { nome: "Next.js", porcentagem: 80 },
       { nome: "TypeScript", porcentagem: 92 },
       { nome: "AWS", porcentagem: 80 },
       { nome: "Styled-Components", porcentagem: 75 },
@@ -154,10 +159,10 @@ export const experiencias = [
   {
     empresa: "Magazine Luiza - Labs",
     cargo: "Coordenador de sistemas / Época Cosméticos / Magazine Luiza - Labs",
-    inicio: "Março 2023",
+    inicio: "Maio 2023",
     fim: "Julho 2024",
-    resumo:
-      "Coordenação técnica e liderança de squads multidisciplinares, promovendo cultura de alta performance, colaboração e inovação. Estruturação e evolução de arquiteturas Front-end modernas, impulsionando práticas ágeis (Scrum, Kanban, SAFe) com foco em eficiência e qualidade. Melhoria de performance, acessibilidade e experiência do usuário em aplicações de grande escala. Design Systems e UI Libraries para garantir consistência e escalabilidade.",
+    resumo: `Coordenação técnica e liderança de squads multidisciplinares, promovendo cultura de alta performance, colaboração e inovação. Estruturação e evolução de arquiteturas Front-end modernas, impulsionando práticas ágeis (Scrum, Kanban, SAFe) com foco em eficiência e qualidade.
+      Melhoria de performance, acessibilidade e experiência do usuário em aplicações de grande escala. Design Systems e UI Libraries para garantir consistência e escalabilidade.`,
     tecnologias: [
       { nome: "React.js", porcentagem: 88 },
       { nome: "TypeScript", porcentagem: 85 },
@@ -173,8 +178,25 @@ export const experiencias = [
       "Especialista em desenvolvimento at (Magazine Luiza - Labs) / Época Cosméticos",
     inicio: "Março 2022",
     fim: "Maio 2023",
-    resumo:
-      "Atuação como Especialista em Desenvolvimento, liderando iniciativas de transformação digital e inovação tecnológica. Responsável por estruturar e evoluir arquiteturas Front-end modernas, impulsionar práticas ágeis (Scrum, Kanban, SAFe) e melhorar performance, acessibilidade e experiência do usuário em aplicações de grande escala. Desenvolvimento de Design Systems e UI Libraries para garantir consistência e escalabilidade.",
+    resumo: `Atuei como Especialista em Desenvolvimento no contexto do Magalu Pay, iniciativa de pagamentos do Magazine Luiza, liderando frentes de transformação digital e evolução tecnológica em aplicações de grande escala.
+    Fui responsável por estruturar e evoluir arquiteturas front-end modernas, baseadas em React, com foco em escalabilidade, performance e manutenibilidade. Atuei diretamente na definição de padrões técnicos, promovendo boas práticas de engenharia e garantindo consistência entre múltiplos times e produtos.
+
+    Liderei iniciativas voltadas à melhoria contínua da experiência do usuário, com forte atuação em:
+     - Performance (otimização de carregamento, code splitting, lazy loading)
+     - Acessibilidade (aderência a boas práticas e padrões como WCAG)
+     - Experiência do usuário (UX) em fluxos críticos, como checkout e carteira digital
+
+     Também tive papel ativo na disseminação de metodologias ágeis, atuando em ambientes com Scrum, Kanban e SAFe, contribuindo para maior previsibilidade, eficiência e alinhamento entre áreas técnicas e de negócio.
+     Outro destaque foi a criação e evolução de Design Systems e UI Libraries, garantindo padronização visual e técnica, além de acelerar o desenvolvimento e reduzir retrabalho em diferentes squads.
+
+     Como principais desafios, destaco:
+      - Escalar aplicações front-end em um ecossistema com alto volume de acessos simultâneos
+      - Garantir segurança e confiabilidade em fluxos financeiros sensíveis
+      - Integrar múltiplos serviços e APIs de pagamento mantendo uma experiência fluida
+      - Equilibrar velocidade de entrega com qualidade técnica e sustentabilidade do código
+
+      Essa experiência consolidou minha atuação estratégica como especialista, conectando decisões técnicas ao impacto direto no negócio e na experiência do usuário.
+    `,
     tecnologias: [
       { nome: "React.js", porcentagem: 90 },
       { nome: "Redux", porcentagem: 90 },
@@ -190,8 +212,8 @@ export const experiencias = [
       "Squad Leader | Tech Lead Front End at Estante Virtual | Magazine Luiza Labs",
     inicio: "Setembro 2019",
     fim: "Fevereiro 2023",
-    resumo:
-      "Responsável pela transformação digital Estante Virtual com a base em Vue.js e Nuxt.js, liderando a equipe de desenvolvimento e promovendo a adoção de práticas ágeis. Implementação de soluções escaláveis e performáticas, garantindo alta qualidade e entrega contínua. Gerenciamento de equipe de TI, cerimônias ágil, apoio em demandas DEVOPS, configuração de ambientes AWS e CI/CD para testes e deploy.",
+    resumo: `Responsável pela transformação digital Estante Virtual com a base em Vue.js e Nuxt.js, liderando a equipe de desenvolvimento e promovendo a adoção de práticas ágeis.
+      Implementação de soluções escaláveis e performáticas, garantindo alta qualidade e entrega contínua. Gerenciamento de equipe de TI, cerimônias ágil, apoio em demandas DEVOPS, configuração de ambientes AWS e CI/CD para testes e deploy.`,
     tecnologias: [
       { nome: "Vue.js", porcentagem: 90 },
       { nome: "Nuxt.js", porcentagem: 90 },

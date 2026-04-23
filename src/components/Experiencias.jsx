@@ -1,9 +1,9 @@
-import { useEffect, useRef } from 'react'
-import { experiencias } from '../data'
-import styles from './Experiencias.module.scss'
+import { useEffect, useRef } from "react";
+import { experiencias } from "../data";
+import styles from "./Experiencias.module.scss";
 
 function SkillBar({ nome, porcentagem, index }) {
-  const barRef = useRef(null)
+  const barRef = useRef(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -11,17 +11,18 @@ function SkillBar({ nome, porcentagem, index }) {
         if (entry.isIntersecting) {
           setTimeout(() => {
             if (barRef.current) {
-              barRef.current.style.width = `${porcentagem}%`
+              barRef.current.style.width = `${porcentagem}%`;
             }
-          }, index * 120)
-          observer.disconnect()
+          }, index * 120);
+          observer.disconnect();
         }
       },
-      { threshold: 0.3 }
-    )
-    if (barRef.current) observer.observe(barRef.current.closest(`.${styles.skillRow}`))
-    return () => observer.disconnect()
-  }, [porcentagem, index])
+      { threshold: 0.3 },
+    );
+    if (barRef.current)
+      observer.observe(barRef.current.closest(`.${styles.skillRow}`));
+    return () => observer.disconnect();
+  }, [porcentagem, index]);
 
   return (
     <div className={styles.skillRow}>
@@ -30,14 +31,10 @@ function SkillBar({ nome, porcentagem, index }) {
         <span className={styles.skillPct}>{porcentagem}%</span>
       </div>
       <div className={styles.skillTrack}>
-        <div
-          className={styles.skillBar}
-          ref={barRef}
-          style={{ width: '0%' }}
-        />
+        <div className={styles.skillBar} ref={barRef} style={{ width: "0%" }} />
       </div>
     </div>
-  )
+  );
 }
 
 function ExperienciaCard({ exp, index }) {
@@ -68,12 +65,17 @@ function ExperienciaCard({ exp, index }) {
         <div className={styles.skills}>
           <p className={styles.skillsTitle}>Tecnologias utilizadas</p>
           {exp.tecnologias.map((tech, i) => (
-            <SkillBar key={tech.nome} nome={tech.nome} porcentagem={tech.porcentagem} index={i} />
+            <SkillBar
+              key={tech.nome}
+              nome={tech.nome}
+              porcentagem={tech.porcentagem}
+              index={i}
+            />
           ))}
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default function Experiencias() {
@@ -81,8 +83,12 @@ export default function Experiencias() {
     <section className={styles.section} id="experiencias">
       <div className="container">
         <p className="section-tag anim">Trajetória</p>
-        <h2 className="section-title anim d1">Experiência <em>profissional</em></h2>
-        <p className="section-subtitle anim d2">Empresas e projetos que moldaram minha visão técnica.</p>
+        <h2 className="section-title anim d1">
+          Experiência <em>profissional</em>
+        </h2>
+        <p className="section-subtitle anim d2">
+          Empresas e projetos que moldaram minha visão técnica.
+        </p>
 
         <div className={styles.timeline}>
           {experiencias.map((exp, i) => (
@@ -91,5 +97,5 @@ export default function Experiencias() {
         </div>
       </div>
     </section>
-  )
+  );
 }
