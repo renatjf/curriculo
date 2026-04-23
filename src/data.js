@@ -229,8 +229,8 @@ export const experiencias = [
     cargo: "Senior Development Front End",
     inicio: "Junho 2018",
     fim: "Setembro 2019",
-    resumo:
-      "Atuação como Senior Front End Developer, liderando a implementação de soluções escaláveis e performáticas para a plataforma de e-commerce da Livraria Cultura. Responsável por garantir alta qualidade e entrega contínua, promovendo a adoção de práticas ágeis e colaborando com equipes multidisciplinares para otimizar a experiência do usuário e impulsionar resultados de negócios.",
+    resumo: `Atuação como Senior Front End Developer, liderando a implementação de soluções escaláveis e performáticas para a plataforma de e-commerce da Livraria Cultura.
+      Responsável por garantir alta qualidade e entrega contínua, promovendo a adoção de práticas ágeis e colaborando com equipes multidisciplinares para otimizar a experiência do usuário e impulsionar resultados de negócios.`,
     tecnologias: [
       { nome: "JavaScript", porcentagem: 100 },
       { nome: "jQuery", porcentagem: 100 },
@@ -244,8 +244,8 @@ export const experiencias = [
     cargo: "Senior Development Front End",
     inicio: "Agosto 2015",
     fim: "Maio 2018",
-    resumo:
-      "Atuação como Senior Front End Developer, liderando a implementação de soluções escaláveis e performáticas para clientes de grande porte. Responsável por garantir alta qualidade e entrega contínua, promovendo a adoção de práticas ágeis e colaborando com equipes multidisciplinares para otimizar a experiência do usuário e impulsionar resultados de negócios.",
+    resumo: `Atuação como Senior Front End Developer, liderando a implementação de soluções escaláveis e performáticas para clientes de grande porte.
+      Responsável por garantir alta qualidade e entrega contínua, promovendo a adoção de práticas ágeis e colaborando com equipes multidisciplinares para otimizar a experiência do usuário e impulsionar resultados de negócios.`,
     tecnologias: [
       { nome: "React.js", porcentagem: 100 },
       { nome: "Redux", porcentagem: 100 },
@@ -259,7 +259,7 @@ export const experiencias = [
     cargo: "Senior Development Front End",
     inicio: "Janeiro 2015",
     fim: "Julho 2015",
-    resumo: "Desenvolvimento do Portal Oi e sua infraestrutura.",
+    resumo: `Desenvolvimento do Portal Oi e sua infraestrutura.`,
     tecnologias: [
       { nome: "React.js", porcentagem: 100 },
       { nome: "Redux", porcentagem: 100 },
@@ -273,8 +273,8 @@ export const experiencias = [
     cargo: "Senior Development Front End",
     inicio: "Janeiro 2015",
     fim: "Julho 2015",
-    resumo:
-      "Desenvolvimento do Portal Oi e sua infraestrutura. Criação de novos componentes e manutenção do código existente, garantindo a qualidade e a performance das aplicações.",
+    resumo: `Desenvolvimento do Portal Oi e sua infraestrutura.
+      Criação de novos componentes e manutenção do código existente, garantindo a qualidade e a performance das aplicações.`,
     tecnologias: [
       { nome: "React.js", porcentagem: 100 },
       { nome: "Redux", porcentagem: 100 },
@@ -288,8 +288,8 @@ export const experiencias = [
     cargo: "Senior Development Front End",
     inicio: "Setembro 2013",
     fim: "Outubro 2014",
-    resumo:
-      "Desenvolvimento do portal de métricas da Fundação Getúlio Vargas, utilizando as melhores práticas de desenvolvimento front-end para garantir a qualidade e a performance das aplicações. Criação de novos componentes e manutenção do código existente, garantindo a qualidade e a performance das aplicações.",
+    resumo: `Desenvolvimento do portal de métricas da Fundação Getúlio Vargas, utilizando as melhores práticas de desenvolvimento front-end para garantir a qualidade e a performance das aplicações.
+      Criação de novos componentes e manutenção do código existente, garantindo a qualidade e a performance das aplicações.`,
     tecnologias: [
       { nome: "CSS", porcentagem: 100 },
       { nome: "Git", porcentagem: 100 },
@@ -303,8 +303,8 @@ export const experiencias = [
     cargo: "Senior Development Front End",
     inicio: "Janeiro 2010",
     fim: "Abril 2013",
-    resumo:
-      "Desenvolvimento de sites, hotsites e micro sistemas em php, javascript, css e wordpress para clientes da Amil. Realizei trabalhos de usabilidade em Photoshop e Illustrator.",
+    resumo: `Desenvolvimento de sites, hotsites e micro sistemas em php, javascript, css e wordpress para clientes da Amil.
+      Realizei trabalhos de usabilidade em Photoshop e Illustrator.`,
     tecnologias: [
       { nome: "CSS", porcentagem: 100 },
       { nome: "Git", porcentagem: 100 },
@@ -319,8 +319,7 @@ export const experiencias = [
     cargo: "Desenvolvedor web",
     inicio: "Março 2007",
     fim: "Novembro 2009",
-    resumo:
-      "Responsável por todo o desenvolvimento web, portais, websites, hotsites e campanhas publicitárias.",
+    resumo: `Responsável por todo o desenvolvimento web, portais, websites, hotsites e campanhas publicitárias.`,
     tecnologias: [
       { nome: "CSS", porcentagem: 100 },
       { nome: "Git", porcentagem: 100 },
@@ -335,8 +334,7 @@ export const experiencias = [
     cargo: "Senior Ux Designer - Web",
     inicio: "Março 2007",
     fim: "Novembro 2009",
-    resumo:
-      "Responsável por todo o desenvolvimento web, portais, websites, hotsites e campanhas publicitárias.",
+    resumo: `Responsável por todo o desenvolvimento web, portais, websites, hotsites e campanhas publicitárias.`,
     tecnologias: [
       { nome: "Adobe Flash", porcentagem: 100 },
       { nome: "Adobe Illustrator", porcentagem: 100 },
@@ -352,8 +350,8 @@ export const experiencias = [
     cargo: "Desenvolvedor Web",
     inicio: "Abril 2006",
     fim: "Dezembro 2008",
-    resumo:
-      "Desenvolvimento de projetos varejo para jornais e tv, incluindo websites e portais. Responsável por todo o desenvolvimento web, portais, websites, hotsites e campanhas publicitárias.",
+    resumo: `Desenvolvimento de projetos varejo para jornais e tv, incluindo websites e portais.
+      Responsável por todo o desenvolvimento web, portais, websites, hotsites e campanhas publicitárias.`,
     tecnologias: [
       { nome: "Adobe Flash", porcentagem: 100 },
       { nome: "Adobe Illustrator", porcentagem: 100 },
