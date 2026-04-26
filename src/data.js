@@ -5,7 +5,7 @@
 export const personal = {
   nome: "Renato Freitas",
   titulo:
-    "Frontend Specialist | React | Vue | Angular | Typescript | MongoDB | Scalable Systems | Performance Optimization | UX | CI/CD",
+    "Frontend Specialist | React | Vue | Angular | Typescript | MongoDB | Node | Scalable Systems | Performance Optimization | UX | CI/CD",
   subtitulo: "Criando experiências digitais com propósito",
   foto: "/foto-Linkedin.jpg",
   sobre: `Sou profissional com mais de 15 anos de experiência em desenvolvimento Frontend, especializado na construção de produtos digitais escaláveis, performáticos e centrados no usuário.
