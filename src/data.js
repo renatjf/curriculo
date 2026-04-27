@@ -138,8 +138,8 @@ export const experiencias = [
   {
     empresa: "Outlier AI",
     cargo: "Software Engineer Sênior",
-    inicio: "Setembro 2024",
-    fim: "Fevereiro 2026",
+    inicio: "Dezembro 2024",
+    fim: "até o momento",
     resumo: `- Desenvolvimento de aplicações escaláveis em React e Next.js
 - Arquitetura de soluções para análise de dados e automação
 - Colaboração com times multidisciplinares em produtos de IA
